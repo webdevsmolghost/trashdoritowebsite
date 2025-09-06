@@ -1,0 +1,130 @@
+.title {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 150px;
+  font-family: 'Courier New', Courier, monospace;
+  color: orange;
+  margin-top: -10px;
+   transform: translateY(-50px);
+}
+
+.games, .consoles, .members {
+  text-align: center;
+}
+
+.background-pic {
+  background-image: url(../pics/B19-Doritos.webp);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.members, .consoles, .games {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  font-size: 25px;
+  color: darkslategray;
+  font-weight: bold;
+}
+
+.list {
+  text-align: center;
+  font-size: 25px;
+  color: blue;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul, ol {
+  list-style-position: inside;
+  text-align: center;           
+
+}
+
+.list a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: red;
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.members-div {
+  height:300px;
+}
+
+.members-div {
+  background-image: url('../pics/men.png');
+}
+
+.members {
+  color:darkcyan
+}
+
+.mem-name {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 80px;
+}
+
+.soti-pic {
+  background-image: url('../pics/okorun.jpg');
+  background-size: contain;
+  background-position: center bottom;
+  color: white;
+  min-height: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lil-pic{
+  background-image: url('../pics/lil.webp');
+  background-size: contain;
+  background-position: center 0px;
+  color: white;
+  min-height: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mr-pic{
+  background-image: url('../pics/mr.jpg');
+  background-size: contain;
+  background-position: center;
+  color: white;
+  min-height: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apple-pic{
+  background-image: url('../pics/apple.avif');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
