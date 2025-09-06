@@ -13,7 +13,7 @@
 }
 
 .background-pic {
-  background-image: url(../pics/B19-Doritos.webp);
+  background-image: url('/pics/B19-Doritos.webp');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -68,7 +68,7 @@ ul, ol {
 }
 
 .members-div {
-  background-image: url('../pics/men.png');
+  background-image: url('/pics/men.png');
 }
 
 .members {
@@ -82,7 +82,7 @@ ul, ol {
 }
 
 .soti-pic {
-  background-image: url('../pics/okorun.jpg');
+  background-image: url('/pics/okorun.jpg');
   background-size: contain;
   background-position: center bottom;
   color: white;
@@ -94,7 +94,7 @@ ul, ol {
 }
 
 .lil-pic{
-  background-image: url('../pics/lil.webp');
+  background-image: url('/pics/lil.webp');
   background-size: contain;
   background-position: center 0px;
   color: white;
@@ -106,7 +106,7 @@ ul, ol {
 }
 
 .mr-pic{
-  background-image: url('../pics/mr.jpg');
+  background-image: url('/pics/mr.jpg');
   background-size: contain;
   background-position: center;
   color: white;
@@ -118,7 +118,7 @@ ul, ol {
 }
 
 .apple-pic{
-  background-image: url('../pics/apple.avif');
+  background-image: url('/pics/apple.avif');
   background-size: cover;
   background-position: center;
   color: white;
